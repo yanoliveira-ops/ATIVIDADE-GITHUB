@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATIVIDADE GITHUB</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="login-container" class="card">
+        <h2>Acessar Conta</h2>
+        <form id="login-form">
+            <div class="input-group">
+                <label for="username">Usuário</label>
+                <input type="text" id="username" placeholder="Digite seu usuário">
+            </div>
+            
+            <div class="input-group">
+                <label for="password">Senha</label>
+                <input type="password" id="password" placeholder="Digite sua senha">
+            </div>
+
+            <button type="submit">Entrar</button>
+        </form>
+        <p id="error-message" class="error"></p>
+    </div>
+
+    <div id="success-container" class="card hidden">
+        <h2>Login Realizado!</h2>
+        <button id="logout-btn">Sair</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
